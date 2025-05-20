@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaGithub, FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { CiStar } from "react-icons/ci";
-import logo_final from "../assets/logo_final.png";
+import logo_final from "../assets/tab-icon.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,7 +29,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link to="/" className="text-white font-bold flex items-center">
               <img src={logo_final} alt="Logo" style={logoStyle} />
-              <span className="ml-2">PreDiaBet</span>
+              <span className="ml-2">CekDiabetes.</span> 
             </Link>
           </div>
           <div className="hidden 850px:block">
@@ -46,13 +46,13 @@ const Navbar = () => {
               <NavLink to="/visualization" onClick={closeMenu}>
                 Visualization
               </NavLink>
-              <NavLink to="/contact" onClick={closeMenu}>
+              {/* <NavLink to="/contact" onClick={closeMenu}>
                 Contact Us
-              </NavLink>
+              </NavLink> */}
               <NavLink to="/FAQ" onClick={closeMenu}>
                 FAQ
               </NavLink>
-              <a
+              {/* <a
                 href="https://github.com/BamaCharanChhandogi/Diabetes-Prediction"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -61,7 +61,7 @@ const Navbar = () => {
               >
                 <CiStar className="w-7 h-7 text-yellow-500 font-bold mr-2" />
                 <FaGithub className="h-7 w-7" />
-              </a>
+              </a> */}
             </div>
           </div>
           <div className="-mr-2 flex 850px:hidden">
@@ -91,8 +91,11 @@ const Navbar = () => {
       >
         <div className="px-4 pt-5 pb-3 space-y-4">
           <div className="flex justify-between items-center">
-            <Link to="/" className="text-white font-bold flex items-center" onClick={closeMenu}>
-            </Link>
+            <Link
+              to="/"
+              className="text-white font-bold flex items-center"
+              onClick={closeMenu}
+            ></Link>
             <button
               onClick={toggleMenu}
               type="button"
@@ -114,13 +117,13 @@ const Navbar = () => {
             <NavLink to="/visualization" onClick={closeMenu}>
               Visualization
             </NavLink>
-            <NavLink to="/contact" onClick={closeMenu}>
+            {/* <NavLink to="/contact" onClick={closeMenu}>
               Contact Us
-            </NavLink>
+            </NavLink> */}
             <NavLink to="/FAQ" onClick={closeMenu}>
               FAQ
             </NavLink>
-            <a
+            {/* <a
               href="https://github.com/BamaCharanChhandogi/Diabetes-Prediction"
               target="_blank"
               rel="noopener noreferrer"
@@ -130,7 +133,7 @@ const Navbar = () => {
               <CiStar className="w-5 h-5 text-yellow-500 font-bold mr-2" />
               <FaGithub className="h-5 w-5 mr-2" />
               GitHub
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

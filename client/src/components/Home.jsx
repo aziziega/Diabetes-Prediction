@@ -5,7 +5,6 @@ import predictionImg from "../assets/prediction.jpeg";
 import visualizationImg from "../assets/Visualization.jpeg";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import Testimonials from "./Testimonials/Testimonials.jsx";
 
 const Home = () => {
   return (
@@ -39,7 +38,7 @@ const Home = () => {
               textAlign: "center",
             }}
           >
-            Welcome to the Diabetes Predictor!
+            Welcome to Cek Diabetes!
           </motion.h1>
 
           <motion.p
@@ -56,11 +55,11 @@ const Home = () => {
             style={{
               fontFamily: "'Abhaya Libre ExtraBold', serif",
               fontSize: "clamp(20px, 4vw, 40px)",
-              lineHeight: "1.5",
+              lineHeight: "1",
               textAlign: "center",
             }}
           >
-            Know your risk
+            Ketahui risiko diabetes Anda dengan mudah dan cepat!
           </motion.p>
 
           <motion.p
@@ -77,11 +76,11 @@ const Home = () => {
             style={{
               fontFamily: "'Abhaya Libre ExtraBold', serif",
               fontSize: "clamp(20px, 4vw, 40px)",
-              lineHeight: "1.5",
+              lineHeight: "3",
               textAlign: "center",
             }}
           >
-            Take control of your health.
+            "Take control of your health"
           </motion.p>
 
           <motion.div
@@ -171,18 +170,18 @@ const Home = () => {
             className="md:w-2/3 md:pl-8 bg-purple-100 p-4 rounded-md"
           >
             <h3 className="text-xl font-bold mb-2 text-purple-800">
-              Data Info
+              Informasi Data
             </h3>
             <p className="text-gray-700 mb-4">
-              Explore and understand the data used for diabetes prediction. Get
-              insights into the various features and their impact on the
-              prediction model.
+              Jelajahi dan pahami data yang digunakan untuk prediksi diabetes.
+              Dapatkan wawasan tentang berbagai fitur dan dampaknya pada model
+              prediksi.
             </p>
             <Link
               to="/data-info"
               className="bg-purple-700 hover:bg-purple-800 text-white font-bold py-2 px-4 rounded transition-colors duration-300"
             >
-              Learn More
+              Pelajari Lebih Lanjut
             </Link>
           </motion.div>
         </div>
@@ -222,8 +221,9 @@ const Home = () => {
               Prediction
             </h3>
             <p className="text-gray-700 mb-4">
-              Predict your likelihood of developing diabetes using our advanced
-              algorithm. Enter your health data and get an accurate prediction.
+              Prediksikan kemungkinan Anda terkena diabetes menggunakan
+              algoritma canggih kami. Masukkan data kesehatan Anda dan dapatkan
+              prediksi yang akurat.
             </p>
             <Link
               to="/prediction"
@@ -269,9 +269,9 @@ const Home = () => {
               Visualization
             </h3>
             <p className="text-gray-700 mb-4">
-              Visualize the data and predictions with interactive charts and
-              graphs. Gain deeper insights into the relationship between various
-              features and diabetes.
+              Visualisasikan data dan prediksi dengan bagan dan grafik
+              interaktif. Dapatkan wawasan lebih mendalam tentang hubungan
+              antara berbagai fitur dan diabetes.
             </p>
             <Link
               to="/visualization"
@@ -293,7 +293,7 @@ const Home = () => {
           delay: 1,
         }}
       >
-        <Testimonials />
+        {/* <Testimonials /> */}
       </motion.div>
     </div>
   );

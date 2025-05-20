@@ -56,7 +56,7 @@ const Prediction = () => {
           className="max-w-md mx-auto bg-white rounded-lg shadow-lg p-8 sm:p-6 md:p-8 w-full sm:w-auto"
         >
           <h1 className="text-3xl font-bold mb-6 text-center text-purple-800">
-            Enter all details
+            Masukkan Semua Detail
           </h1>
           <form onSubmit={handleSubmit}>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -195,7 +195,7 @@ const Prediction = () => {
                 }`}
                 disabled={buttonDisabled}
               >
-                Predict
+                Prediksi!
               </button>
             </div>
           </form>
@@ -215,17 +215,52 @@ const Prediction = () => {
           {!prediction && (
             <div className="bg-white p-6 rounded-lg shadow-lg mx-4 sm:mx-0 mt-4 sm:mt-0 w-full max-w-3xl">
               <h2 className="text-2xl font-bold mb-4 text-purple-800 text-center">
-                About the Parameters
+                Tentang Parameternya
               </h2>
               <ul className="list-disc pl-5 space-y-2 text-gray-700">
-                <li><strong>Age:</strong> The age of the patient. Age is a risk factor because the likelihood of developing diabetes increases as you get older.</li>
-                <li><strong>Pregnancies:</strong> The number of times the patient has been pregnant. Pregnancy can affect insulin sensitivity, and a higher number of pregnancies might indicate a higher risk of developing diabetes.</li>
-                <li><strong>Glucose:</strong> Plasma glucose concentration after a 2-hour oral glucose tolerance test. High glucose levels are a primary indicator of diabetes.</li>
-                <li><strong>Blood Pressure:</strong> Diastolic blood pressure (mm Hg). High blood pressure is associated with an increased risk of diabetes and its complications.</li>
-                <li><strong>Insulin:</strong> 2-Hour serum insulin (mu U/ml). Abnormal insulin levels can be a sign of insulin resistance, a condition often associated with diabetes.</li>
-                <li><strong>BMI:</strong> Body Mass Index (weight in kg/(height in m)^2). Higher BMI values indicate obesity, which is a major risk factor for diabetes.</li>
-                <li><strong>Skin Thickness:</strong> Triceps skin fold thickness (mm). This measure can indicate body fat distribution, which is related to diabetes risk.</li>
-                <li><strong>DPF:</strong> Diabetes Pedigree Function. This function estimates the genetic impact on diabetes by considering family history, helping to understand hereditary risk.</li>
+                <li>
+                  <strong>Age:</strong> Usia pasien. Usia merupakan faktor
+                  risiko karena kemungkinan terkena diabetes meningkat seiring
+                  bertambahnya usia.
+                </li>
+                <li>
+                  <strong>Pregnancies:</strong> Jumlah kali pasien hamil.
+                  Kehamilan dapat memengaruhi sensitivitas insulin, dan jumlah
+                  kehamilan yang lebih tinggi dapat mengindikasikan risiko lebih
+                  tinggi terkena diabetes.
+                </li>
+                <li>
+                  <strong>Glucose:</strong> Konsentrasi glukosa plasma setelah
+                  uji toleransi glukosa oral selama 2 jam. Kadar glukosa yang
+                  tinggi merupakan indikator utama diabetes.
+                </li>
+                <li>
+                  <strong>Blood Pressure:</strong> Tekanan darah diastolik
+                  (mmHg). Tekanan darah tinggi dikaitkan dengan peningkatan
+                  risiko diabetes dan komplikasinya.
+                </li>
+                <li>
+                  <strong>Insulin:</strong> Serum insulin 2 jam (mu U/ml). Kadar
+                  insulin yang tidak normal dapat menjadi tanda resistensi
+                  insulin, suatu kondisi yang sering dikaitkan dengan diabetes.
+                </li>
+                <li>
+                  <strong>BMI:</strong> BMI (Indeks Massa Tubuh) (berat dalam
+                  kg/(tinggi dalam m)^2). Nilai BMI yang lebih tinggi
+                  menunjukkan obesitas, yang merupakan faktor risiko utama
+                  diabetes.
+                </li>
+                <li>
+                  <strong>Skin Thickness:</strong> Ketebalan lipatan kulit
+                  trisep (mm). Ukuran ini dapat menunjukkan distribusi lemak
+                  tubuh, yang berhubungan dengan risiko diabetes.
+                </li>
+                <li>
+                  <strong>DPF:</strong> Diabetes Pedigree Function atau Fungsi
+                  Silsilah Diabetes. Fungsi ini memperkirakan dampak genetik
+                  pada diabetes dengan mempertimbangkan riwayat keluarga,
+                  membantu memahami risiko keturunan. risk.
+                </li>
               </ul>
             </div>
           )}

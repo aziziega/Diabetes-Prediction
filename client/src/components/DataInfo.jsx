@@ -54,7 +54,7 @@ function DataInfo() {
         }}
         className="text-3xl font-bold mb-4 text-purple-800 text-center p-2 border-b-2"
       >
-        Data Information
+        Informasi Data
       </motion.h1>
       {data.length > 0 ? (
         <motion.div

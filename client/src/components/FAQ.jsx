@@ -9,40 +9,40 @@ const FAQ = () => {
             FAQ
           </span>
           <h2 className="mb-4 text-4xl font-bold text-gray-800 dark:text-white">
-            Any Questions? Look Here
+            Ada pertanyaan? Lihat di sini
           </h2>
           <p className="mx-auto max-w-3xl text-gray-500 dark:text-gray-300">
-            Some of the frequently asked questions
+            Beberapa pertanyaan yang sering ditanyakan
           </p>
         </div>
 
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4 lg:w-1/2">
             <AccordionItem
-              header="What is this Project?"
-              text="Our Diabetes Prediction Website offers a user-friendly platform for individuals to assess their risk of developing diabetes. By inputting demographic and health data, users receive personalized predictions generated through advanced machine learning algorithms."
+              header="Project apa ini?"
+              text="Situs Prediksi Diabetes kami menawarkan platform yang mudah digunakan bagi individu untuk menilai risiko mereka terkena diabetes. Dengan memasukkan data demografi dan dari tes MCU (Medical Check Up) kesehatan, pengguna menerima prediksi yang dipersonalisasi yang dihasilkan melalui algoritma pembelajaran mesin yang canggih."
             />
             <AccordionItem
-              header="What is BMI (Body Mass Index)?"
-              text="Body mass index (BMI) is a person's weight in kilograms divided by the square of height in meters. BMI is an inexpensive and easy screening method for weight category—underweight, healthy weight, overweight, and obesity."
+              header="Apa itu BMI (Body Mass Index)?"
+              text="Body mass index (BMI) atau Indeks massa tubuh (IMT) adalah berat badan seseorang dalam kilogram dibagi dengan kuadrat tinggi badan dalam meter. IMT adalah metode penyaringan yang murah dan mudah untuk kategori berat badan—berat badan kurang, berat badan sehat, berat badan berlebih, dan obesitas."
             />
             <AccordionItem
-              header="How to calculate BMI?"
-              text="With the metric system, the formula for BMI is weight in kilograms (kg) divided by height in meters (m) squared. Since height is commonly measured in centimeters (cm), an alternate formula can be used—divide weight in kg by height in cm squared, and multiply the result by 10,000."
+              header="Bagaimana Cara Menghitung BMI?"
+              text="Dengan sistem metrik, rumus untuk BMI adalah berat badan dalam kilogram (kg) dibagi tinggi badan dalam meter (m) kuadrat. Karena tinggi badan biasanya diukur dalam sentimeter (cm), rumus alternatif dapat digunakan—bagi berat badan dalam kg dengan tinggi badan dalam cm kuadrat, dan kalikan hasilnya dengan 10.000."
             />
           </div>
           <div className="w-full px-4 lg:w-1/2">
             <AccordionItem
-              header="What is DPF (Diabetes Pedigree Function)?"
-              text="DPF stands for Diabetes Pedigree Function. It is a feature commonly used in medical research and datasets, such as the Pima Indians Diabetes Dataset, to assess the genetic predisposition of an individual to diabetes based on their family history."
+              header="Apa itu DPF (Diabetes Pedigree Function)?"
+              text="DPF adalah singkatan dari Diabetes Pedigree Function. Fitur ini umum digunakan dalam penelitian medis dan kumpulan data, seperti Pima Indians Diabetes Dataset, untuk menilai kecenderungan genetik seseorang terhadap diabetes berdasarkan riwayat keluarga mereka."
             />
             <AccordionItem
-              header="What is Skin Thickness Parameter?"
-              text="SkinThickness parameter refers to the measurement of the skinfold thickness of the triceps. This measurement is typically expressed in millimeters (mm) and is used as an indirect way to estimate the amount of subcutaneous fat present in the body."
+              header="Apa itu Skin Thickness Parameter?"
+              text="Parameter SkinThickness mengacu pada pengukuran ketebalan lipatan kulit trisep. Pengukuran ini biasanya dinyatakan dalam milimeter (mm) dan digunakan sebagai cara tidak langsung untuk memperkirakan jumlah lemak subkutan yang ada dalam tubuh."
             />
             <AccordionItem
-              header="What is Blood Pressure?"
-              text="Blood pressure is the amount of force your blood uses to get through your arteries. When your heart pumps, it uses force to push oxygen-rich blood out to your arteries. They bring it to your body's cells and tissues"
+              header="Apa itu Blood Pressure?"
+              text="Blood Pressure atau Tekanan darah adalah jumlah tenaga yang digunakan darah untuk melewati arteri. Saat jantung memompa, ia menggunakan tenaga untuk mendorong darah kaya oksigen keluar ke arteri. Arteri membawa darah ke sel dan jaringan tubuh."
             />
           </div>
         </div>
