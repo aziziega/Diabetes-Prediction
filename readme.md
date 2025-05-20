@@ -4,46 +4,8 @@
 
 Welcome to our Diabetes Prediction Website! Our platform offers a unique opportunity for users to gain insights into their potential risk of developing diabetes by leveraging predictive analytics and visualization techniques.
 
-<br>
-
-**Website Link** :- https://diabetes-prediction-gamma.vercel.app/
-
-<br>
-
-<div>
-  <img src="https://github.com/user-attachments/assets/b2e5bbb6-8f9b-4dba-9a23-9ca77a3553ba" alt="Diabetes Prediction Website">
-</div>
-
-<br>
 
   ## 🏆 Featured in:
-
-<table>
-    <tr>
-      <th>Event Logo</th>
-      <th>Event Name</th>
-      <th>Event Description</th>
-    </tr>
-    <tr>
-        <td><img src="client/src/assets/Gssoc Label.png" width="200" height="auto" loading="lazy" alt="GSSoC 24"/></td>
-        <td>GirlScript Summer of Code 2024</td>
-        <td>GirlScript Summer of Code is a three-month-long Open Source Program conducted every summer by GirlScript Foundation. It is an initiative to bring more beginners to Open-Source Software Development. 
-    </tr>
-</table>
-
-## About Our Project 🌟
-
-<p align="justify">
-  Our Diabetes Prediction Website offers a user-friendly platform for individuals to assess their risk of developing diabetes. By inputting demographic and health data, users receive personalized predictions generated through advanced machine learning algorithms. Our visualization tools provide clear insights into the relationships between various risk factors and diabetes development likelihood. Transparency is key, as our about page offers details on our mission, team, and commitment to data security. Our goal is to empower individuals with actionable insights to make informed decisions for better health outcomes.
-</p>
-
-## ✨ Key Features
-
-- **🔍 Prediction Page**: This page lets you type in your personal details and health info. After that, it gives you an idea of how likely you are to get diabetes. It's like having a little crystal ball for your health!
-  
-- **📊 Visualization Page**: Here, you get to see colorful charts and graphs that show how different things, like your weight or blood sugar levels, might affect your chances of getting diabetes. It's like watching a fun picture book about your health!
-  
-- **ℹ️ About Page**: Our About Page offers a detailed overview of the Diabetes Prediction Website, elucidating its purpose, features, and the dedicated team driving its development. It serves as a hub of information, empowering users with insights into their health risks while highlighting our mission to democratize predictive analytics for proactive wellness.
 
 ## 🛠 Technologies Used
 
