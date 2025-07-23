@@ -51,6 +51,9 @@ python -m streamlit run app.py
 
 To stop the Streamlit server, press Ctrl+C in the terminal.
 
+ACCESS LOCAL WEB : http://localhost:8501/
+
+URL WEBSITE : https://diabetes-prediksi-amikom.streamlit.app/
 ```
 <hr> 
 
