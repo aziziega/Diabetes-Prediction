@@ -4,8 +4,8 @@ import numpy as np
 import joblib   
 
 # Load model dan scaler
-model = joblib.load("model/logistic_regression_model.pkl")
-scaler = joblib.load("model/scaler.pkl")
+model = joblib.load("server/model/logistic_regression_model.pkl")
+scaler = joblib.load("server/model/scaler.pkl")
 class_names = ["Tidak Diabetes", "Diabetes"]
 
 # Konfigurasi halaman
