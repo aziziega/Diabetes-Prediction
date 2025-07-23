@@ -2,10 +2,20 @@
 import streamlit as st
 import numpy as np
 import joblib   
+import os
 
 # Load model dan scaler
-model = joblib.load("model/logistic_regression_model.pkl")
-scaler = joblib.load("model/scaler.pkl")
+# Cek apakah folder 'server/model/' ada
+if os.path.exists("server/model/logistic_regression_model.pkl"):
+    model_path = "server/model/logistic_regression_model.pkl"
+    scaler_path = "server/model/scaler.pkl"
+else:
+    model_path = "model/logistic_regression_model.pkl"
+    scaler_path = "model/scaler.pkl"
+
+model = joblib.load(model_path)
+scaler = joblib.load(scaler_path)
+
 class_names = ["Tidak Diabetes", "Diabetes"]
 
 # Konfigurasi halaman
