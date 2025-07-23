@@ -39,7 +39,18 @@ npm run dev
 #### Start Backend Development Server
 ```bash
 cd ../server
-python app.py
+pip install streamlit
+
+Run your Streamlit app.
+
+streamlit run app.py
+
+If this doesn't work, use the long-form command:
+
+python -m streamlit run app.py
+
+To stop the Streamlit server, press Ctrl+C in the terminal.
+
 ```
 <hr> 
 
@@ -57,7 +68,7 @@ python app.py
 ### ⚙️ Backend
 <div align="left">
   <img src="https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=Python&logoColor=white">
-  <img src="https://img.shields.io/badge/Flask-000000.svg?style=for-the-badge&logo=Flask&logoColor=white">
+  <img src="https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.svg">
 </div>
 
 ### 📈 Data Analysis and Prediction

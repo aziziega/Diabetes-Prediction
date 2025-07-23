@@ -68,7 +68,7 @@ Our chatbot is built using Botpress, a platform for creating powerful AI agents 
 Exploring Botpress Studio, [documentation](https://botpress.com/docs/cloud/), and the chatbot itself are the best ways to identify areas for enhancement.
 
 - Raise an issue related to chatbot enhancement.
-- Create your botpress account and export the chatbot configurations to your botpress studio using `.bpz` file present in the project directory.
+- Create your botpress account and export the chatbot configurations to your botpress studio using `.bpz` file present in the project directory.      
 - Make your changes and improvements.
 - Export your `.bpz` file having improved configurations and then replace the current `.bpz` file with yours.
 - Raise a PR and detail all the changes you've made (including screenshots, if possible).

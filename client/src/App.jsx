@@ -14,10 +14,6 @@ import Helmet from "react-helmet";
 const App = () => {
   return (
     <>
-      <Helmet>
-        <script src="https://cdn.botpress.cloud/webchat/v2/inject.js"></script>
-        <script src="https://mediafiles.botpress.cloud/308f960c-95e7-4cc1-aa6a-f1c653965b80/webchat/v2/config.js"></script>
-      </Helmet>
       <Router>
         <div className="min-h-screen flex flex-col">
           <Navbar />
