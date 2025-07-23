@@ -71,7 +71,7 @@ URL WEBSITE : https://diabetes-prediksi-amikom.streamlit.app/
 ### ⚙️ Backend
 <div align="left">
   <img src="https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=Python&logoColor=white">
-  <img src="https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.svg">
+  <img src="https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.svg?style=for-the-badge&logo=streamlit&logoColor=white">
 </div>
 
 ### 📈 Data Analysis and Prediction
