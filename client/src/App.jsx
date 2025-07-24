@@ -6,10 +6,8 @@ import Prediction from "./components/Prediction";
 import DataInfo from "./components/DataInfo";
 import Visualization from "./components/Visualization";
 import Footer from "./components/Footer";
-import ContactUs from "./components/contact";
 import FloatBtn from "./components/FloatBtn";
 import FAQ from "./components/FAQ";
-import Helmet from "react-helmet";
 
 const App = () => {
   return (
@@ -23,7 +21,6 @@ const App = () => {
               <Route path="/data-info" element={<DataInfo />} />
               <Route path="/prediction" element={<Prediction />} />
               <Route path="/visualization" element={<Visualization />} />
-              {/* <Route path="/contact" element={<ContactUs />} /> */}
               <Route path="/FAQ" element={<FAQ />} />
             </Routes>
           </div>

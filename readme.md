@@ -25,7 +25,7 @@ npm install
 #### Backend
 ```bash
 cd ../server
-pip install -r requirements.txt
+pip install streamlit
 ```
 
 ### 3. 🚀 Run the Development Server
@@ -39,10 +39,6 @@ npm run dev
 #### Start Backend Development Server
 ```bash
 cd ../server
-pip install streamlit
-
-Run your Streamlit app.
-
 streamlit run app.py
 
 If this doesn't work, use the long-form command:
