@@ -15,7 +15,6 @@ const Home = () => {
           backgroundImage: `url(${diabetesImg})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
-          backgroundColor: "rgba(0,0,0,0.4)",
           backgroundBlendMode: "multiply",
         }}
       >
