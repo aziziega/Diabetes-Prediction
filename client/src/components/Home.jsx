@@ -14,6 +14,7 @@ const Home = () => {
         style={{
           backgroundImage: `url(${diabetesImg})`,
           backgroundSize: "cover",
+          backgroundColor: "rgba(0,0,0,0.4)",
           backgroundPosition: "center",
         }}
       >
